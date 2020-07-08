@@ -18,7 +18,7 @@ import kotlin.math.roundToInt
  * Copyright (C) 2020 Mikhael LOPEZ
  * Licensed under the Apache License Version 2.0
  */
-class CircularImageView @JvmOverloads constructor(
+open class CircularImageView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
